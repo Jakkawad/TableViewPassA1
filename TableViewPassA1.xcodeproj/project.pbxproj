@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6253008941FD77E924150678 /* Pods_TableViewPassA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 021F7EB6711291411AA0FD8B /* Pods_TableViewPassA1.framework */; };
 		84468C051D96611000ECA835 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84468C041D96611000ECA835 /* AppDelegate.swift */; };
 		84468C071D96611000ECA835 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84468C061D96611000ECA835 /* ViewController.swift */; };
 		84468C0A1D96611000ECA835 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84468C081D96611000ECA835 /* Main.storyboard */; };
 		84468C0C1D96611000ECA835 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84468C0B1D96611000ECA835 /* Assets.xcassets */; };
 		84468C0F1D96611000ECA835 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84468C0D1D96611000ECA835 /* LaunchScreen.storyboard */; };
+		84468C171D96612100ECA835 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 84468C161D96612100ECA835 /* Podfile */; };
+		84468C191D9663AA00ECA835 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84468C181D9663AA00ECA835 /* CustomTableViewCell.swift */; };
+		84468C1B1D9667A300ECA835 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84468C1A1D9667A300ECA835 /* Constants.swift */; };
+		84468C1D1D96685300ECA835 /* StarWars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84468C1C1D96685300ECA835 /* StarWars.swift */; };
+		84468C1F1D966B6B00ECA835 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84468C1E1D966B6B00ECA835 /* CustomCollectionViewCell.swift */; };
+		84468C211D967D2D00ECA835 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84468C201D967D2D00ECA835 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		021F7EB6711291411AA0FD8B /* Pods_TableViewPassA1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableViewPassA1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30DADDAB3FC49C6ED988DEFE /* Pods-TableViewPassA1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewPassA1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewPassA1/Pods-TableViewPassA1.debug.xcconfig"; sourceTree = "<group>"; };
+		6AA522AD9C5917016FEE34DD /* Pods-TableViewPassA1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewPassA1.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewPassA1/Pods-TableViewPassA1.release.xcconfig"; sourceTree = "<group>"; };
 		84468C011D96611000ECA835 /* TableViewPassA1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewPassA1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84468C041D96611000ECA835 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84468C061D96611000ECA835 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,12 @@
 		84468C0B1D96611000ECA835 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84468C0E1D96611000ECA835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84468C101D96611000ECA835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84468C161D96612100ECA835 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		84468C181D9663AA00ECA835 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		84468C1A1D9667A300ECA835 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		84468C1C1D96685300ECA835 /* StarWars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWars.swift; sourceTree = "<group>"; };
+		84468C1E1D966B6B00ECA835 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		84468C201D967D2D00ECA835 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6253008941FD77E924150678 /* Pods_TableViewPassA1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +55,11 @@
 		84468BF81D96611000ECA835 = {
 			isa = PBXGroup;
 			children = (
+				84468C161D96612100ECA835 /* Podfile */,
 				84468C031D96611000ECA835 /* TableViewPassA1 */,
 				84468C021D96611000ECA835 /* Products */,
+				F9CE8571340D66620F44F0F5 /* Pods */,
+				A32307B18000FDDFCCBB99F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +76,34 @@
 			children = (
 				84468C041D96611000ECA835 /* AppDelegate.swift */,
 				84468C061D96611000ECA835 /* ViewController.swift */,
+				84468C181D9663AA00ECA835 /* CustomTableViewCell.swift */,
+				84468C1E1D966B6B00ECA835 /* CustomCollectionViewCell.swift */,
+				84468C201D967D2D00ECA835 /* DetailViewController.swift */,
 				84468C081D96611000ECA835 /* Main.storyboard */,
+				84468C1A1D9667A300ECA835 /* Constants.swift */,
+				84468C1C1D96685300ECA835 /* StarWars.swift */,
 				84468C0B1D96611000ECA835 /* Assets.xcassets */,
 				84468C0D1D96611000ECA835 /* LaunchScreen.storyboard */,
 				84468C101D96611000ECA835 /* Info.plist */,
 			);
 			path = TableViewPassA1;
+			sourceTree = "<group>";
+		};
+		A32307B18000FDDFCCBB99F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				021F7EB6711291411AA0FD8B /* Pods_TableViewPassA1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9CE8571340D66620F44F0F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30DADDAB3FC49C6ED988DEFE /* Pods-TableViewPassA1.debug.xcconfig */,
+				6AA522AD9C5917016FEE34DD /* Pods-TableViewPassA1.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84468C131D96611000ECA835 /* Build configuration list for PBXNativeTarget "TableViewPassA1" */;
 			buildPhases = (
+				C2C89C923B1CEF8C2682BDA4 /* Check Pods Manifest.lock */,
 				84468BFD1D96611000ECA835 /* Sources */,
 				84468BFE1D96611000ECA835 /* Frameworks */,
 				84468BFF1D96611000ECA835 /* Resources */,
+				215B35FE82B58C4B0302DFDA /* Embed Pods Frameworks */,
+				69F34D25D359A00BB1FEE1FD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +141,7 @@
 				TargetAttributes = {
 					84468C001D96611000ECA835 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = W6X8G863UY;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,19 +171,73 @@
 			files = (
 				84468C0F1D96611000ECA835 /* LaunchScreen.storyboard in Resources */,
 				84468C0C1D96611000ECA835 /* Assets.xcassets in Resources */,
+				84468C171D96612100ECA835 /* Podfile in Resources */,
 				84468C0A1D96611000ECA835 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		215B35FE82B58C4B0302DFDA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableViewPassA1/Pods-TableViewPassA1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69F34D25D359A00BB1FEE1FD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableViewPassA1/Pods-TableViewPassA1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2C89C923B1CEF8C2682BDA4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84468BFD1D96611000ECA835 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84468C191D9663AA00ECA835 /* CustomTableViewCell.swift in Sources */,
+				84468C1F1D966B6B00ECA835 /* CustomCollectionViewCell.swift in Sources */,
 				84468C071D96611000ECA835 /* ViewController.swift in Sources */,
 				84468C051D96611000ECA835 /* AppDelegate.swift in Sources */,
+				84468C1B1D9667A300ECA835 /* Constants.swift in Sources */,
+				84468C1D1D96685300ECA835 /* StarWars.swift in Sources */,
+				84468C211D967D2D00ECA835 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +356,10 @@
 		};
 		84468C141D96611000ECA835 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30DADDAB3FC49C6ED988DEFE /* Pods-TableViewPassA1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W6X8G863UY;
 				INFOPLIST_FILE = TableViewPassA1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.all2sale.TableViewPassA1;
@@ -268,8 +370,10 @@
 		};
 		84468C151D96611000ECA835 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AA522AD9C5917016FEE34DD /* Pods-TableViewPassA1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W6X8G863UY;
 				INFOPLIST_FILE = TableViewPassA1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.all2sale.TableViewPassA1;
@@ -297,6 +401,7 @@
 				84468C151D96611000ECA835 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
